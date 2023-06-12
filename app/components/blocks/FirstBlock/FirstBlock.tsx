@@ -16,9 +16,8 @@ const FirstBlock: FC<IFirstBlockProps> = ({
 
   return (
     <span data-test-id={dataTestId}>
-      <h3>
-        {label} - {count}
-      </h3>
+      <h3>{label}</h3>
+      <h3>{count}</h3>
       <MyButton
         dataTestId={"FirtBlocPropButton1"}
         onClick={!button1OnClick ? countIncrease : button1OnClick}
