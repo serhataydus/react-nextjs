@@ -6,7 +6,7 @@ const MyButton: FC<IMyButtonProps> = ({
   label,
   dataTestId,
   className,
-  size,
+  buttonSize,
   type,
   shapes,
   icon,
@@ -17,7 +17,7 @@ const MyButton: FC<IMyButtonProps> = ({
       className={className && className.length > 0 ? className : ""}
       onClick={onClick}
       data-test-id={dataTestId}
-      size={size}
+      size={buttonSize}
       type={type}
       shape={shapes}
       icon={icon}

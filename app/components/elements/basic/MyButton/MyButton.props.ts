@@ -1,6 +1,6 @@
-import { BaseElementProps } from "@/app/components/base/baseElementProps";
+import { IBaseElementProps } from "../../base/baseElementProps";
 
-export interface IMyButtonProps extends BaseElementProps {
+export interface IMyButtonProps extends IBaseElementProps {
   /**
    * How primary should the button be?
    */
@@ -15,7 +15,7 @@ export interface IMyButtonProps extends BaseElementProps {
   /**
    * How large should the button be?
    */
-  size?: "small" | "middle" | "large" | undefined;
+  buttonSize?: "small" | "middle" | "large" | undefined;
   /**
    * How circle should the button be?
    */
