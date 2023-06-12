@@ -21,5 +21,7 @@ export const DefaultStory: Story = {
     label: "First Block",
     button1Label: "Button 1",
     button2Label: "Button 2",
+    button1OnClick: action("clicked"),
+    button2OnClick: action("clicked"),
   },
 };

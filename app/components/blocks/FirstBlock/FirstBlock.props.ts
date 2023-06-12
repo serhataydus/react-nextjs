@@ -10,7 +10,15 @@ export interface IFirstBlockProps extends IBaseElementProps {
    */
   button1Label: string;
   /**
+   * Button 1 Optional click handler
+   */
+  button1OnClick?: () => void;
+  /**
    * Button 2 label
    */
   button2Label: string;
+  /**
+   * Button 2 Optional click handler
+   */
+  button2OnClick?: () => void;
 }
