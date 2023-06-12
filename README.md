@@ -1,4 +1,4 @@
-## Getting Started
+## Kurulum
 
 npm install
 
